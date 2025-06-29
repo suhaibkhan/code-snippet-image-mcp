@@ -9,10 +9,7 @@
   "scripts": {
     "build": "tsc && cp src/template.html dist/template.html && cp src/test-script.js dist/test-script.js && cp src/themes.json dist/themes.json",
     "dev": "tsx --watch src/index.ts",
-    "start": "node dist/index.js",
-    "test": "tsx test.ts",
-    "demo": "tsx demo.ts",
-    "demo:interactive": "tsx demo.ts --interactive"
+    "start": "node dist/index.js"
   },
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.0.0",
