@@ -2,6 +2,7 @@
   "name": "code-snippet-image-mcp",
   "version": "1.0.0",
   "description": "MCP server for generating beautiful code snippet images",
+  "homepage": "https://github.com/suhaibkhan/code-snippet-image-mcp",
   "main": "dist/index.js",
   "type": "module",
   "scripts": {
