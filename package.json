@@ -1,6 +1,6 @@
 {
   "name": "code-snippet-image-mcp",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "MCP server for generating beautiful code snippet images",
   "homepage": "https://github.com/suhaibkhan/code-snippet-image-mcp",
   "main": "dist/index.js",
@@ -13,7 +13,6 @@
   },
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.0.0",
-    "canvas": "^2.11.2",
     "highlight.js": "^11.9.0",
     "playwright-chromium": "^1.40.0"
   },
