@@ -4,6 +4,9 @@
   "description": "MCP server for generating beautiful code snippet images",
   "homepage": "https://github.com/suhaibkhan/code-snippet-image-mcp",
   "main": "dist/index.js",
+  "bin": {
+    "code-snippet-image-mcp-server": "dist/index.js"
+  },
   "license": "MIT",
   "type": "module",
   "scripts": {
