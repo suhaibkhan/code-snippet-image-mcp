@@ -2,7 +2,7 @@
   "mcpServers": {
     "code-snippet-image-mcp": {
       "command": "npx",
-      "args": ["-y", "/Users/suhaibkhan/Working/code-snippet-mcp-server", "/Users/suhaibkhan/Working/code-snippet-mcp-server/output"]
+      "args": ["-y", "code-snippet-mcp-server", "/custom/output/directory"]
     }
   }
 }

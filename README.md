@@ -25,11 +25,7 @@ Add to your MCP configuration file:
   "mcpServers": {
     "code-snippet-image-mcp": {
       "command": "npx",
-      "args": [
-        "-y",
-        "/path/to/code-snippet-mcp-server",
-        "/custom/output/directory"
-      ]
+      "args": ["-y", "code-snippet-mcp-server", "/custom/output/directory"]
     }
   }
 }
