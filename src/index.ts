@@ -45,7 +45,7 @@ const paramsSchema = {
 };
 
 const server = new McpServer({
-  name: 'code-snippet-image-mcp',
+  name: 'code-snippet-image-mcp-server',
   version: '1.0.0',
   capabilities: {
     resources: {},

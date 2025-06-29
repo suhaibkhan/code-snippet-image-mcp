@@ -23,9 +23,13 @@ Add to your MCP configuration file:
 ```json
 {
   "mcpServers": {
-    "code-snippet-image-mcp": {
+    "code-snippet-image-mcp-server": {
       "command": "npx",
-      "args": ["-y", "code-snippet-mcp-server", "/custom/output/directory"]
+      "args": [
+        "-y",
+        "code-snippet-image-mcp-server",
+        "/custom/output/directory"
+      ]
     }
   }
 }
