@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "code-snippet-image-mcp": {
+      "command": "npx",
+      "args": ["-y", "/Users/suhaibkhan/Working/code-snippet-mcp-server", "/Users/suhaibkhan/Working/code-snippet-mcp-server/output"]
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "name": "code-snippet-image-mcp",
+  "version": "1.0.0",
+  "description": "MCP server for generating beautiful code snippet images",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc && cp src/template.html dist/template.html && cp src/test-script.js dist/test-script.js && cp src/themes.json dist/themes.json",
+    "dev": "tsx --watch src/index.ts",
+    "start": "node dist/index.js",
+    "test": "tsx test.ts",
+    "demo": "tsx demo.ts",
+    "demo:interactive": "tsx demo.ts --interactive"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "canvas": "^2.11.2",
+    "highlight.js": "^11.9.0",
+    "playwright-chromium": "^1.40.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.30",
+    "tsx": "^4.7.1",
+    "typescript": "^5.4.3"
+  }
+}

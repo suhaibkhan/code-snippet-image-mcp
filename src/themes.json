@@ -1,0 +1,52 @@
+{
+  "dracula": {
+    "background": "linear-gradient(135deg, #0f0f23 0%, #1a1a2e 50%, #16213e 100%)",
+    "windowBar": "#44475a",
+    "windowDots": ["#ff5555", "#f1fa8c", "#50fa7b"],
+    "codeBackground": "#282a36",
+    "textColor": "#f8f8f2",
+    "lineNumberColor": "#6272a4",
+    "shadowColor": "rgba(0, 0, 0, 0.3)",
+    "isLight": false
+  },
+  "monokai": {
+    "background": "linear-gradient(135deg, #0d1117 0%, #161b22 50%, #21262d 100%)",
+    "windowBar": "#3e3d32",
+    "windowDots": ["#f92672", "#fd971f", "#a6e22e"],
+    "codeBackground": "#272822",
+    "textColor": "#f8f8f2",
+    "lineNumberColor": "#75715e",
+    "shadowColor": "rgba(0, 0, 0, 0.3)",
+    "isLight": false
+  },
+  "github": {
+    "background": "linear-gradient(135deg, #f8fafc 0%, #f1f5f9 50%, #e2e8f0 100%)",
+    "windowBar": "#f1f3f4",
+    "windowDots": ["#ff5f56", "#ffbd2e", "#27ca3f"],
+    "codeBackground": "#ffffff",
+    "textColor": "#24292e",
+    "lineNumberColor": "#8b949e",
+    "shadowColor": "rgba(0, 0, 0, 0.1)",
+    "isLight": true
+  },
+  "solarized-dark": {
+    "background": "linear-gradient(135deg, #0c1821 0%, #1e3a8a 50%, #1e40af 100%)",
+    "windowBar": "#073642",
+    "windowDots": ["#dc322f", "#cb4b16", "#859900"],
+    "codeBackground": "#002b36",
+    "textColor": "#839496",
+    "lineNumberColor": "#586e75",
+    "shadowColor": "rgba(0, 0, 0, 0.4)",
+    "isLight": false
+  },
+  "solarized-light": {
+    "background": "linear-gradient(135deg, #fefce8 0%, #fef3c7 50%, #fde68a 100%)",
+    "windowBar": "#eee8d5",
+    "windowDots": ["#dc322f", "#cb4b16", "#859900"],
+    "codeBackground": "#fdf6e3",
+    "textColor": "#657b83",
+    "lineNumberColor": "#93a1a1",
+    "shadowColor": "rgba(0, 0, 0, 0.1)",
+    "isLight": true
+  }
+}
