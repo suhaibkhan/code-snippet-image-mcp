@@ -12,6 +12,7 @@ tsconfig.json
 
 # Documentation
 README.md
+assets/
 
 # Node modules
 node_modules/
