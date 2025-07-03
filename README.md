@@ -4,9 +4,9 @@ An MCP (Model Context Protocol) server that generates beautiful code snippet ima
 
 ## Demo
 
-![Demo Screenshot](assets/demo.jpg)
+![Demo Screenshot](https://raw.githubusercontent.com/suhaibkhan/code-snippet-image-mcp/refs/heads/main/assets/demo.jpg)
 
-[📹 Watch Demo Video](assets/mcp-demo.mp4)
+[📹 Watch Demo Video](https://raw.githubusercontent.com/suhaibkhan/code-snippet-image-mcp/refs/heads/main/assets/mcp-demo.mp4)
 
 _Watch the MCP server generate beautiful code snippet images in real-time_
 
@@ -84,23 +84,23 @@ Generate a beautiful code snippet image:
 
 ### Dracula (Default)
 
-![Dracula Theme](assets/dracula.png)
+![Dracula Theme](https://raw.githubusercontent.com/suhaibkhan/code-snippet-image-mcp/refs/heads/main/assets/dracula.png)
 
 ### Monokai
 
-![Monokai Theme](assets/monokai.png)
+![Monokai Theme](https://raw.githubusercontent.com/suhaibkhan/code-snippet-image-mcp/refs/heads/main/assets/monokai.png)
 
 ### GitHub
 
-![GitHub Theme](assets/github.png)
+![GitHub Theme](https://raw.githubusercontent.com/suhaibkhan/code-snippet-image-mcp/refs/heads/main/assets/github.png)
 
 ### Solarized Dark
 
-![Solarized Dark Theme](assets/solarized-dark.png)
+![Solarized Dark Theme](https://raw.githubusercontent.com/suhaibkhan/code-snippet-image-mcp/refs/heads/main/assets/solarized-dark.png)
 
 ### Solarized Light
 
-![Solarized Light Theme](assets/solarized-light.png)
+![Solarized Light Theme](https://raw.githubusercontent.com/suhaibkhan/code-snippet-image-mcp/refs/heads/main/assets/solarized-light.png)
 
 ## Supported Languages
 
