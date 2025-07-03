@@ -5,6 +5,7 @@ import { StdioServerTransport } from '@modelcontextprotocol/sdk/server/stdio.js'
 import { CodeImageGenerator } from './code-image-generator.js';
 import path from 'path';
 import { z } from 'zod';
+import { promises as fs } from 'fs';
 
 // Parse command line arguments for output directory
 const outputDir = process.argv[2] || path.join(process.cwd(), 'output');
@@ -66,12 +67,21 @@ server.tool(
       outputDir,
     });
 
+    // Read the generated image and convert to base64
+    const imageBuffer = await fs.readFile(imagePath);
+    const base64Image = imageBuffer.toString('base64');
+
     return {
       content: [
         {
-          type: 'text',
-          text: `Code image generated successfully at: ${imagePath}`,
+          type: 'image',
+          data: base64Image,
+          mimeType: 'image/png'
         },
+        {
+          type: 'text', 
+          text: `Image saved to: ${imagePath}`
+        }
       ],
     };
   }
