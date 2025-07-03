@@ -2,6 +2,10 @@
 
 An MCP (Model Context Protocol) server that generates beautiful code snippet images to post to social media.
 
+## Demo
+
+_Watch the MCP server generate beautiful code snippet images in real-time_
+
 ## Features
 
 - **Beautiful Code Images**: Generate beautiful code snippet images with syntax highlighting
@@ -74,11 +78,25 @@ Generate a beautiful code snippet image:
 
 ## Supported Themes
 
-- `dracula` (default)
-- `monokai`
-- `github`
-- `solarized-dark`
-- `solarized-light`
+### Dracula (Default)
+
+![Dracula Theme](assets/dracula.png)
+
+### Monokai
+
+![Monokai Theme](assets/monokai.png)
+
+### GitHub
+
+![GitHub Theme](assets/github.png)
+
+### Solarized Dark
+
+![Solarized Dark Theme](assets/solarized-dark.png)
+
+### Solarized Light
+
+![Solarized Light Theme](assets/solarized-light.png)
 
 ## Supported Languages
 
