@@ -4,7 +4,9 @@ An MCP (Model Context Protocol) server that generates beautiful code snippet ima
 
 ## Demo
 
-![Demo](https://github.com/user-attachments/assets/c08cbb94-9913-43da-9e48-56320ab1d131)
+![Demo Screenshot](assets/demo.jpg)
+
+[📹 Watch Demo Video](assets/mcp-demo.mp4)
 
 _Watch the MCP server generate beautiful code snippet images in real-time_
 
